@@ -1,0 +1,62 @@
+about:
+  description: The extensible chat client.
+  license: GPL-3.0
+  homepage: https://weechat.org
+  head: 98cc5f7
+  archived: false
+  latestVersion: v4.10.0
+  collectedAt: 2026-09-04T04:25:49Z
+timeline:
+  created: 2014-03-03
+  lastCommit: 2026-09-02
+  lastRelease: 2026-08-02
+popularity:
+  star: 3374
+  watcher: 78
+  fork: 363
+  release: 88
+  contributor: 174
+  pullRequest: 324
+  issue: 1615
+language:
+  C: 10004062
+  C++: 2379500
+  Python: 210192
+  CMake: 68062
+  Shell: 23755
+  PHP: 16335
+  Makefile: 1174
+totalLine: 12703080
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 0
+    openPR: 2
+    closedIssue: 1
+    openIssue: 2
+    commit: 82
+  last90d:
+    since: 2026-06-06
+    release: 5
+    mergedPR: 4
+    openPR: 2
+    closedIssue: 2
+    openIssue: 5
+    commit: 248
+  last180d:
+    since: 2026-03-08
+    release: 7
+    mergedPR: 10
+    openPR: 2
+    closedIssue: 4
+    openIssue: 10
+    commit: 381
+  last360d:
+    since: 2025-09-09
+    release: 11
+    mergedPR: 17
+    openPR: 3
+    closedIssue: 14
+    openIssue: 19
+    commit: 573
