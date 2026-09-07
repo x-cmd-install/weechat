@@ -5,7 +5,7 @@ about:
   head: d48ed9a
   archived: false
   latestVersion: "v4.10.1"
-  collectedAt: 2026-09-07T05:58:57Z
+  collectedAt: 2026-09-07T18:29:19Z
 timeline:
   created: 2014-03-03
   lastCommit: 2026-09-06
@@ -85,7 +85,7 @@ total:
   commit: 14080
 ---
 path: /home/runner/.x-repo/github.com/weechat/weechat
-collectedAt: 2026-09-07T05:59:55Z
+collectedAt: 2026-09-07T18:31:02Z
 loc:
   C:
     code: 219788
@@ -262,7 +262,7 @@ checks:
       - 'Info: CppLibFuzzer integration found: tests/fuzz/core/util-fuzzer.cc:35'
 ---
 eget:
-  collectedAt: 2026-09-07T05:59:57+00:00
+  collectedAt: 2026-09-07T18:31:03+00:00
   platform:
     darwin/arm64:
       name:  null
