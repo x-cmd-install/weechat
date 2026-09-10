@@ -7,7 +7,7 @@ about:
   latestVersion: "v4.10.1"
   latestRelease: "v4.10.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:16:30Z
+  collectedAt: 2026-09-10T22:35:47Z
 timeline:
   created: 2014-03-03
   lastCommit: 2026-09-10
@@ -89,7 +89,7 @@ total:
   commit: 14086
 ---
 path: /home/runner/.x-repo/github.com/weechat/weechat
-collectedAt: 2026-09-10T21:17:36Z
+collectedAt: 2026-09-10T22:36:55Z
 loc:
   C:
     code: 219844
