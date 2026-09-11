@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 2 | 0 | 1 | 3 | 111 |
-| last60d | 2026-07-12 | 4 | 3 | 0 | 1 | 3 | 175 |
-| 90d | 2026-06-12 | 5 | 4 | 0 | 2 | 6 | 269 |
-| last180d | 2026-03-14 | 8 | 12 | 0 | 4 | 10 | 392 |
-| 360d | 2025-09-15 | 12 | 19 | 1 | 14 | 20 | 589 |
-| last720d | 2024-09-20 | 23 | 34 | 2 | 46 | 32 | 1036 |
+| 30d | 2026-08-12 | 1 | 2 | 0 | 0 | 2 | 111 |
+| last60d | 2026-07-13 | 4 | 3 | 0 | 1 | 3 | 175 |
+| 90d | 2026-06-13 | 5 | 4 | 0 | 2 | 5 | 269 |
+| last180d | 2026-03-15 | 8 | 12 | 0 | 4 | 10 | 392 |
+| 360d | 2025-09-16 | 12 | 19 | 1 | 14 | 20 | 589 |
+| last720d | 2024-09-21 | 23 | 34 | 2 | 46 | 32 | 1036 |
 
 ## Distribution status
 
-Reported by **268** distros on [repology.org](https://repology.org/project/weechat). **44** are ✅ on the latest upstream release, **192** are ⚠️ on an older version.
+Reported by **268** distros on [repology.org](https://repology.org/project/weechat). **46** are ✅ on the latest upstream release, **190** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:37:02Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:16:17Z._
