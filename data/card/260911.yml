@@ -2,20 +2,20 @@ about:
   description: "The extensible chat client."
   license: GPL-3.0
   homepage: https://weechat.org
-  head: 55f939f
+  head: 16f4a6c
   archived: false
   latestVersion: "v4.10.1"
   latestRelease: "v4.10.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T06:14:44Z
+  collectedAt: 2026-09-11T18:32:40Z
 timeline:
   created: 2014-03-03
-  lastCommit: 2026-09-10
+  lastCommit: 2026-09-11
   lastVersion: 2026-09-05
   lastRelease: 2026-09-05
   lastPrerelease: 
 popularity:
-  star: 3382
+  star: 3383
   watcher: 78
   fork: 364
   release: 89
@@ -39,7 +39,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 2
-    commit: 111
+    commit: 112
   last60d:
     since: 2026-07-13
     release: 4
@@ -47,7 +47,7 @@ recent:
     openPR: 0
     closedIssue: 1
     openIssue: 3
-    commit: 175
+    commit: 176
   last90d:
     since: 2026-06-13
     release: 5
@@ -55,7 +55,7 @@ recent:
     openPR: 0
     closedIssue: 2
     openIssue: 5
-    commit: 269
+    commit: 270
   last180d:
     since: 2026-03-15
     release: 8
@@ -63,7 +63,7 @@ recent:
     openPR: 0
     closedIssue: 4
     openIssue: 10
-    commit: 392
+    commit: 393
   last360d:
     since: 2025-09-16
     release: 12
@@ -71,7 +71,7 @@ recent:
     openPR: 1
     closedIssue: 14
     openIssue: 20
-    commit: 589
+    commit: 590
   last720d:
     since: 2024-09-21
     release: 23
@@ -79,17 +79,17 @@ recent:
     openPR: 2
     closedIssue: 46
     openIssue: 32
-    commit: 1036
+    commit: 1037
 total:
   release: 89
   mergedPR: 402
   openPR: 37
   closedIssue: 1213
   openIssue: 403
-  commit: 14086
+  commit: 14087
 ---
 path: /home/runner/.x-repo/github.com/weechat/weechat
-collectedAt: 2026-09-11T06:16:11Z
+collectedAt: 2026-09-11T18:33:41Z
 loc:
   C:
     code: 219844
