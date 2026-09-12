@@ -14,13 +14,13 @@ x install weechat
 
 ## Code insight
 
-Total: **437,268** lines of code across **742** files in the top 5 languages.
+Total: **437,414** lines of code across **742** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 219,844 | 31,263 | 37,371 | 250 |
+| C | 219,920 | 31,286 | 37,388 | 250 |
 | AsciiDoc | 147,168 | 3,335 | 47,403 | 112 |
-| Cpp | 48,533 | 13,270 | 11,686 | 119 |
+| Cpp | 48,603 | 13,283 | 11,697 | 119 |
 | CHeader | 14,058 | 2,028 | 2,438 | 256 |
 | Python | 2,833 | 110 | 349 | 5 |
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 89 · **Merged PRs**: 402 · **Open PRs**: 37 · **Closed issues**: 1213 · **Open issues**: 403 · **Commits**: 14087
+- **Releases**: 89 · **Merged PRs**: 402 · **Open PRs**: 37 · **Closed issues**: 1214 · **Open issues**: 402 · **Commits**: 14088
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 1 | 2 | 0 | 0 | 2 | 112 |
-| last60d | 2026-07-13 | 4 | 3 | 0 | 1 | 3 | 176 |
-| 90d | 2026-06-13 | 5 | 4 | 0 | 2 | 5 | 270 |
-| last180d | 2026-03-15 | 8 | 12 | 0 | 4 | 10 | 393 |
-| 360d | 2025-09-16 | 12 | 19 | 1 | 14 | 20 | 590 |
-| last720d | 2024-09-21 | 23 | 34 | 2 | 46 | 32 | 1037 |
+| 30d | 2026-08-13 | 1 | 2 | 0 | 1 | 1 | 113 |
+| last60d | 2026-07-14 | 4 | 3 | 0 | 2 | 2 | 177 |
+| 90d | 2026-06-14 | 5 | 4 | 0 | 3 | 4 | 271 |
+| last180d | 2026-03-16 | 8 | 12 | 0 | 5 | 8 | 394 |
+| 360d | 2025-09-17 | 12 | 19 | 1 | 15 | 19 | 591 |
+| last720d | 2024-09-22 | 23 | 34 | 2 | 47 | 31 | 1038 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T18:33:48Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T06:01:27Z._
