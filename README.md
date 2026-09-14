@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,384 · **Forks**: 364 · **Open issues**: 1,616 · **Contributors**: 175
+- **Stars**: 3,385 · **Forks**: 364 · **Open issues**: 1,616 · **Contributors**: 175
 
 ## Totals (cumulative)
 
@@ -57,31 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 2 | 0 | 1 | 1 | 86 |
-| last60d | 2026-07-15 | 4 | 2 | 0 | 2 | 2 | 152 |
-| 90d | 2026-06-15 | 5 | 4 | 0 | 3 | 4 | 237 |
-| last180d | 2026-03-17 | 8 | 12 | 0 | 5 | 8 | 378 |
-| 360d | 2025-09-18 | 12 | 19 | 1 | 15 | 19 | 588 |
-| last720d | 2024-09-23 | 23 | 34 | 2 | 47 | 31 | 1037 |
-
-## Distribution status
-
-Reported by **269** distros on [repology.org](https://repology.org/project/weechat). **47** are ✅ on the latest upstream release, **189** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `4.10.0` | ⚠️ outdated |
-| Debian 14 | `4.10.0` | ⚠️ outdated |
-| Debian 13 | `4.6.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.8.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `4.1.1` | ⚠️ outdated |
-| Arch | `4.10.1` | ✅ latest |
-| Homebrew | `4.10.1` | ✅ latest |
-| Fedora rawhide | `4.10.1` | ✅ latest |
-| Nix unstable | `4.10.1` | ✅ latest |
-| Void | `4.10.1` | ✅ latest |
-| Alpine edge | `4.10.1` | ✅ latest |
-| openSUSE Tumbleweed | `4.10.0` | ⚠️ outdated |
+| 30d | 2026-08-15 | 1 | 2 | 0 | 1 | 1 | 86 |
+| last60d | 2026-07-16 | 4 | 2 | 0 | 2 | 2 | 152 |
+| 90d | 2026-06-16 | 5 | 4 | 0 | 3 | 4 | 237 |
+| last180d | 2026-03-18 | 8 | 12 | 0 | 5 | 8 | 378 |
+| 360d | 2025-09-19 | 12 | 19 | 1 | 15 | 19 | 588 |
+| last720d | 2024-09-24 | 23 | 34 | 2 | 47 | 30 | 1037 |
 
 ## Improve this data
 
@@ -92,4 +73,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:17:13Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:28:52Z._
