@@ -30,8 +30,8 @@ Overall score: **7.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
+- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,385 · **Forks**: 364 · **Open issues**: 1,616 · **Contributors**: 175
+- **Stars**: 3,387 · **Forks**: 364 · **Open issues**: 1,616 · **Contributors**: 175
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 1 | 2 | 0 | 1 | 1 | 95 |
-| last60d | 2026-07-17 | 4 | 2 | 0 | 2 | 2 | 161 |
-| 90d | 2026-06-17 | 5 | 4 | 0 | 3 | 4 | 246 |
-| last180d | 2026-03-19 | 8 | 12 | 0 | 5 | 8 | 387 |
-| 360d | 2025-09-20 | 12 | 19 | 1 | 15 | 19 | 597 |
-| last720d | 2024-09-25 | 23 | 34 | 2 | 47 | 30 | 1046 |
+| 30d | 2026-08-17 | 1 | 2 | 0 | 1 | 1 | 95 |
+| last60d | 2026-07-18 | 4 | 2 | 0 | 2 | 2 | 161 |
+| 90d | 2026-06-18 | 5 | 4 | 0 | 3 | 4 | 246 |
+| last180d | 2026-03-20 | 8 | 12 | 0 | 5 | 7 | 387 |
+| 360d | 2025-09-21 | 12 | 19 | 1 | 15 | 19 | 597 |
+| last720d | 2024-09-26 | 23 | 34 | 2 | 47 | 30 | 1044 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:39:25Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T06:39:20Z._
