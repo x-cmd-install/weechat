@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.10.1` (2026-09-05)
-- **Last commit**: 2026-09-16
+- **Last commit**: 2026-09-17
 
 ## Popularity
 
-- **Stars**: 3,388 · **Forks**: 364 · **Open issues**: 1,616 · **Contributors**: 175
+- **Stars**: 3,390 · **Forks**: 364 · **Open issues**: 1,616 · **Contributors**: 175
 
 ## Totals (cumulative)
 
-- **Releases**: 89 · **Merged PRs**: 402 · **Open PRs**: 37 · **Closed issues**: 1214 · **Open issues**: 402 · **Commits**: 14097
+- **Releases**: 89 · **Merged PRs**: 402 · **Open PRs**: 37 · **Closed issues**: 1214 · **Open issues**: 402 · **Commits**: 14098
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 1 | 2 | 0 | 1 | 1 | 112 |
-| last60d | 2026-07-19 | 4 | 2 | 0 | 2 | 2 | 178 |
-| 90d | 2026-06-19 | 5 | 4 | 0 | 3 | 4 | 263 |
-| last180d | 2026-03-21 | 8 | 12 | 0 | 5 | 7 | 404 |
-| 360d | 2025-09-22 | 12 | 18 | 1 | 15 | 19 | 614 |
-| last720d | 2024-09-27 | 23 | 34 | 2 | 47 | 30 | 1044 |
+| 30d | 2026-08-19 | 1 | 2 | 0 | 1 | 1 | 113 |
+| last60d | 2026-07-20 | 3 | 2 | 0 | 2 | 2 | 179 |
+| 90d | 2026-06-20 | 5 | 4 | 0 | 3 | 4 | 264 |
+| last180d | 2026-03-22 | 8 | 12 | 0 | 5 | 7 | 405 |
+| 360d | 2025-09-23 | 12 | 18 | 1 | 15 | 19 | 615 |
+| last720d | 2024-09-28 | 23 | 34 | 2 | 47 | 30 | 1045 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260917.yml` · 2026-09-17T06:40:04Z._
+_Snapshot: `data/card/260918.yml` · 2026-09-18T06:23:58Z._
