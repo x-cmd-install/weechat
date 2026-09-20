@@ -4,7 +4,7 @@
 
 The extensible chat client.
 
-![weechat](https://repo.x-cmd.io/weechat.svg)
+[![x-cmd/install — weechat Code Quality Monitoring Repo Card](https://repo.x-cmd.io/weechat.svg)](https://x-cmd.com/install/weechat)
 
 ## Install
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,390 · **Forks**: 364 · **Open issues**: 1,616 · **Contributors**: 175
+- **Stars**: 3,391 · **Forks**: 364 · **Open issues**: 1,616 · **Contributors**: 175
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 2 | 0 | 1 | 1 | 113 |
-| last60d | 2026-07-20 | 3 | 2 | 0 | 2 | 2 | 179 |
-| 90d | 2026-06-20 | 5 | 4 | 0 | 3 | 4 | 264 |
-| last180d | 2026-03-22 | 8 | 12 | 0 | 5 | 7 | 405 |
-| 360d | 2025-09-23 | 12 | 18 | 1 | 15 | 19 | 615 |
-| last720d | 2024-09-28 | 23 | 34 | 2 | 47 | 30 | 1045 |
+| 30d | 2026-08-21 | 1 | 2 | 0 | 1 | 0 | 88 |
+| last60d | 2026-07-22 | 3 | 2 | 0 | 2 | 2 | 161 |
+| 90d | 2026-06-22 | 5 | 4 | 0 | 3 | 4 | 255 |
+| last180d | 2026-03-24 | 8 | 12 | 0 | 4 | 7 | 392 |
+| 360d | 2025-09-25 | 12 | 18 | 1 | 15 | 18 | 615 |
+| last720d | 2024-09-30 | 23 | 31 | 2 | 47 | 30 | 991 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:23:58Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:25:21Z._
