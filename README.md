@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 1 | 2 | 0 | 1 | 0 | 113 |
-| last60d | 2026-07-23 | 3 | 2 | 0 | 2 | 2 | 186 |
-| 90d | 2026-06-23 | 5 | 4 | 0 | 3 | 4 | 280 |
-| last180d | 2026-03-25 | 8 | 11 | 0 | 4 | 7 | 417 |
-| 360d | 2025-09-26 | 12 | 18 | 1 | 15 | 18 | 640 |
-| last720d | 2024-10-01 | 23 | 31 | 2 | 47 | 30 | 1016 |
+| 30d | 2026-08-23 | 1 | 2 | 0 | 1 | 0 | 113 |
+| last60d | 2026-07-24 | 3 | 2 | 0 | 2 | 2 | 186 |
+| 90d | 2026-06-24 | 5 | 4 | 0 | 3 | 4 | 280 |
+| last180d | 2026-03-26 | 8 | 11 | 0 | 4 | 7 | 417 |
+| 360d | 2025-09-27 | 12 | 18 | 1 | 15 | 18 | 640 |
+| last720d | 2024-10-02 | 23 | 31 | 2 | 47 | 30 | 1015 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T06:34:03Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T06:33:25Z._
