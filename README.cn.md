@@ -4,7 +4,7 @@
 
 The extensible chat client.
 
-[![x-cmd/install — weechat Code Quality Monitoring Repo Card](https://repo.x-cmd.io/weechat.svg?lang=zh)](https://x-cmd.com/install/weechat)
+[![x-cmd/install — weechat Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/weechat.svg?lang=zh)](https://x-cmd.com/install/weechat)
 
 ## 安装
 
@@ -57,12 +57,12 @@ x install weechat
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 2 | 0 | 1 | 0 | 113 |
-| last60d | 2026-07-24 | 3 | 2 | 0 | 2 | 2 | 186 |
-| 90d | 2026-06-24 | 5 | 4 | 0 | 3 | 4 | 280 |
-| last180d | 2026-03-26 | 8 | 11 | 0 | 4 | 7 | 417 |
-| 360d | 2025-09-27 | 12 | 18 | 1 | 15 | 18 | 640 |
-| last720d | 2024-10-02 | 23 | 31 | 2 | 47 | 30 | 1015 |
+| 30d | 2026-08-24 | 1 | 2 | 0 | 1 | 0 | 113 |
+| last60d | 2026-07-25 | 3 | 2 | 0 | 2 | 2 | 186 |
+| 90d | 2026-06-25 | 5 | 4 | 0 | 3 | 4 | 280 |
+| last180d | 2026-03-27 | 8 | 11 | 0 | 4 | 7 | 417 |
+| 360d | 2025-09-28 | 12 | 18 | 1 | 15 | 18 | 640 |
+| last720d | 2024-10-03 | 23 | 31 | 2 | 46 | 30 | 1015 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ weechat 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:33:26Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:36:06Z._
