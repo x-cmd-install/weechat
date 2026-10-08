@@ -32,7 +32,7 @@ x install weechat
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Dangerous-Workflow** (-1/10) — no workflows found
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## 源代码
 
@@ -47,7 +47,7 @@ x install weechat
 
 ## 流行度
 
-- **Star**: 3,398 · **Fork**: 363 · **开放 issue**: 1,619 · **贡献者**: 175
+- **Star**: 3,399 · **Fork**: 363 · **开放 issue**: 1,619 · **贡献者**: 175
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install weechat
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 0 | 1 | 0 | 2 | 2 | 133 |
-| last60d | 2026-08-08 | 1 | 2 | 0 | 3 | 4 | 252 |
-| 90d | 2026-07-09 | 4 | 3 | 0 | 3 | 5 | 314 |
-| last180d | 2026-04-10 | 7 | 10 | 0 | 5 | 8 | 485 |
-| 360d | 2025-10-12 | 12 | 17 | 1 | 15 | 19 | 718 |
-| last720d | 2024-10-17 | 23 | 31 | 2 | 44 | 32 | 1071 |
+| 30d | 2026-09-08 | 0 | 1 | 0 | 1 | 2 | 133 |
+| last60d | 2026-08-09 | 1 | 2 | 0 | 3 | 4 | 252 |
+| 90d | 2026-07-10 | 4 | 3 | 0 | 3 | 4 | 314 |
+| last180d | 2026-04-11 | 7 | 10 | 0 | 5 | 8 | 485 |
+| 360d | 2025-10-13 | 12 | 17 | 1 | 14 | 19 | 718 |
+| last720d | 2024-10-18 | 23 | 31 | 2 | 43 | 32 | 1071 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ weechat 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261007.yml` · 2026-10-07T07:16:42Z._
+_数据快照: `data/card/261008.yml` · 2026-10-08T07:23:20Z._
