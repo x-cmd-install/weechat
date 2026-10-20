@@ -14,14 +14,14 @@ x install weechat
 
 ## Code insight
 
-Total: **450,919** lines of code across **754** files in the top 5 languages.
+Total: **451,890** lines of code across **755** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 222,813 | 32,097 | 37,837 | 251 |
-| AsciiDoc | 148,822 | 3,426 | 47,794 | 112 |
-| Cpp | 56,281 | 14,410 | 13,046 | 129 |
-| CHeader | 14,233 | 2,045 | 2,448 | 257 |
+| C | 223,068 | 32,162 | 37,881 | 251 |
+| AsciiDoc | 149,168 | 3,445 | 47,931 | 112 |
+| Cpp | 56,608 | 14,466 | 13,099 | 130 |
+| CHeader | 14,252 | 2,046 | 2,449 | 257 |
 | Python | 3,657 | 161 | 410 | 5 |
 
 ## OpenSSF Scorecard
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.10.1` (2026-09-05)
-- **Last commit**: 2026-10-18
+- **Last commit**: 2026-10-19
 
 ## Popularity
 
-- **Stars**: 3,407 · **Forks**: 363 · **Open issues**: 1,619 · **Contributors**: 175
+- **Stars**: 3,406 · **Forks**: 363 · **Open issues**: 1,620 · **Contributors**: 175
 
 ## Totals (cumulative)
 
-- **Releases**: 89 · **Merged PRs**: 402 · **Open PRs**: 36 · **Closed issues**: 1267 · **Open issues**: 352 · **Commits**: 14359
+- **Releases**: 89 · **Merged PRs**: 402 · **Open PRs**: 36 · **Closed issues**: 1269 · **Open issues**: 351 · **Commits**: 14372
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 0 | 0 | 1 | 2 | 224 |
-| last60d | 2026-08-20 | 1 | 2 | 0 | 2 | 3 | 344 |
-| 90d | 2026-07-21 | 3 | 2 | 0 | 3 | 4 | 416 |
-| last180d | 2026-04-22 | 7 | 10 | 0 | 5 | 7 | 629 |
-| 360d | 2025-10-24 | 12 | 17 | 1 | 17 | 16 | 855 |
-| last720d | 2024-10-29 | 23 | 31 | 2 | 45 | 29 | 1214 |
+| 30d | 2026-09-20 | 0 | 0 | 0 | 3 | 1 | 237 |
+| last60d | 2026-08-21 | 1 | 2 | 0 | 4 | 1 | 357 |
+| 90d | 2026-07-22 | 3 | 2 | 0 | 5 | 3 | 429 |
+| last180d | 2026-04-23 | 7 | 10 | 0 | 7 | 6 | 642 |
+| 360d | 2025-10-25 | 12 | 17 | 1 | 19 | 15 | 868 |
+| last720d | 2024-10-30 | 23 | 30 | 2 | 47 | 28 | 1221 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:46:43Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T06:01:50Z._
