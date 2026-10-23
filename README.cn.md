@@ -30,9 +30,9 @@ x install weechat
 
 评分最低的几项:
 
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -47,22 +47,41 @@ x install weechat
 
 ## 流行度
 
-- **Star**: 3,410 · **Fork**: 363 · **开放 issue**: 1,621 · **贡献者**: 175
+- **Star**: 3,410 · **Fork**: 362 · **开放 issue**: 1,622 · **贡献者**: 175
 
 ## 累计统计
 
-- **发布数**: 89 · **已合并 PR**: 402 · **开放 PR**: 35 · **已关闭 issue**: 1271 · **开放 issue**: 350 · **提交数**: 14395
+- **发布数**: 89 · **已合并 PR**: 402 · **开放 PR**: 35 · **已关闭 issue**: 1271 · **开放 issue**: 351 · **提交数**: 14395
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 4 | 1 | 260 |
-| last60d | 2026-08-23 | 1 | 2 | 0 | 5 | 1 | 380 |
-| 90d | 2026-07-24 | 3 | 2 | 0 | 6 | 3 | 452 |
-| last180d | 2026-04-25 | 7 | 10 | 0 | 8 | 6 | 665 |
-| 360d | 2025-10-27 | 12 | 17 | 1 | 20 | 15 | 891 |
-| last720d | 2024-11-01 | 22 | 30 | 2 | 48 | 28 | 1238 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 3 | 2 | 260 |
+| last60d | 2026-08-24 | 1 | 2 | 0 | 5 | 2 | 380 |
+| 90d | 2026-07-25 | 3 | 2 | 0 | 6 | 4 | 452 |
+| last180d | 2026-04-26 | 7 | 10 | 0 | 8 | 7 | 665 |
+| 360d | 2025-10-28 | 12 | 17 | 1 | 20 | 16 | 891 |
+| last720d | 2024-11-02 | 22 | 30 | 2 | 48 | 29 | 1238 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/weechat) 上共有 **268** 个发行版报告此项目。**80** 个 ✅ 已是最新上游版本，**152** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `4.10.0` | ⚠️ outdated |
+| Debian 14 | `4.10.0` | ⚠️ outdated |
+| Debian 13 | `4.6.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.8.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.1.1` | ⚠️ outdated |
+| Arch | `4.10.1` | ✅ latest |
+| Homebrew | `4.10.1` | ✅ latest |
+| Fedora rawhide | `4.10.1` | ✅ latest |
+| Nix unstable | `4.10.1` | ✅ latest |
+| Void | `4.10.1` | ✅ latest |
+| Alpine edge | `4.10.1` | ✅ latest |
+| openSUSE Tumbleweed | `4.10.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -73,4 +92,4 @@ weechat 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:58:05Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:57:25Z._

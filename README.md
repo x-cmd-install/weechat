@@ -30,9 +30,9 @@ Overall score: **6.5 / 10**
 
 Lowest-scoring checks:
 
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -47,22 +47,41 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,410 · **Forks**: 363 · **Open issues**: 1,621 · **Contributors**: 175
+- **Stars**: 3,410 · **Forks**: 362 · **Open issues**: 1,622 · **Contributors**: 175
 
 ## Totals (cumulative)
 
-- **Releases**: 89 · **Merged PRs**: 402 · **Open PRs**: 35 · **Closed issues**: 1271 · **Open issues**: 350 · **Commits**: 14395
+- **Releases**: 89 · **Merged PRs**: 402 · **Open PRs**: 35 · **Closed issues**: 1271 · **Open issues**: 351 · **Commits**: 14395
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 4 | 1 | 260 |
-| last60d | 2026-08-23 | 1 | 2 | 0 | 5 | 1 | 380 |
-| 90d | 2026-07-24 | 3 | 2 | 0 | 6 | 3 | 452 |
-| last180d | 2026-04-25 | 7 | 10 | 0 | 8 | 6 | 665 |
-| 360d | 2025-10-27 | 12 | 17 | 1 | 20 | 15 | 891 |
-| last720d | 2024-11-01 | 22 | 30 | 2 | 48 | 28 | 1238 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 3 | 2 | 260 |
+| last60d | 2026-08-24 | 1 | 2 | 0 | 5 | 2 | 380 |
+| 90d | 2026-07-25 | 3 | 2 | 0 | 6 | 4 | 452 |
+| last180d | 2026-04-26 | 7 | 10 | 0 | 8 | 7 | 665 |
+| 360d | 2025-10-28 | 12 | 17 | 1 | 20 | 16 | 891 |
+| last720d | 2024-11-02 | 22 | 30 | 2 | 48 | 29 | 1238 |
+
+## Distribution status
+
+Reported by **268** distros on [repology.org](https://repology.org/project/weechat). **80** are ✅ on the latest upstream release, **152** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `4.10.0` | ⚠️ outdated |
+| Debian 14 | `4.10.0` | ⚠️ outdated |
+| Debian 13 | `4.6.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.8.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.1.1` | ⚠️ outdated |
+| Arch | `4.10.1` | ✅ latest |
+| Homebrew | `4.10.1` | ✅ latest |
+| Fedora rawhide | `4.10.1` | ✅ latest |
+| Nix unstable | `4.10.1` | ✅ latest |
+| Void | `4.10.1` | ✅ latest |
+| Alpine edge | `4.10.1` | ✅ latest |
+| openSUSE Tumbleweed | `4.10.1` | ✅ latest |
 
 ## Improve this data
 
@@ -73,4 +92,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:58:03Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:57:24Z._
