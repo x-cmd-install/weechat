@@ -1,31 +1,59 @@
-- repo: cygwin
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: weechat
-  binname: weechat-doc
-  visiblename: weechat-doc
+  binname: weechat
+  visiblename: weechat
   version: 4.10.1
-  origversion: 4.10.1-1
+  origversion: 4.10.1-2
   status: newest
-  summary: Fast, light and extensible chat client
-  maintainers:
-    - sebastien.helleu@cygwin
+  summary: Fast, light and extensible IRC client (curses UI)
   licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Net
-- repo: cygwin
+    - GPL-3.0-only
+- repo: parabola
+  subrepo: extra
   srcname: weechat
-  binname: weechat-guile
-  visiblename: weechat-guile
+  binname: weechat
+  visiblename: weechat
   version: 4.10.1
-  origversion: 4.10.1-1
+  origversion: 4.10.1-2
   status: newest
-  summary: Fast, light and extensible chat client
-  maintainers:
-    - sebastien.helleu@cygwin
+  summary: Fast, light and extensible IRC client (curses UI)
   licenses:
-    - GPL-3.0-or-later
+    - GPL-3.0-only
+- repo: openbsd
+  srcname: net/weechat
+  binname: weechat-tcl
+  visiblename: net/weechat
+  version: 4.10.1
+  origversion: null
+  status: newest
+  summary: Tcl bindings for weechat
+  maintainers:
+    - rsadowski@openbsd.org
   categories:
-    - Net
+    - net
+- repo: openindiana
+  subrepo: hipster
+  srcname: weechat
+  binname: network/chat/weechat
+  visiblename: weechat
+  version: 4.9.0
+  origversion: null
+  status: legacy
+  summary: WeeChat - portable, fast, light and extensible IRC client
+  categories:
+    - Applications/Internet
+- repo: openindiana
+  subrepo: hipster
+  srcname: weechat
+  binname: network/chat/weechat
+  visiblename: weechat
+  version: 4.9.2
+  origversion: null
+  status: legacy
+  summary: WeeChat - portable, fast, light and extensible IRC client
+  categories:
+    - Applications/Internet
 - repo: adelie_current
   subrepo: user
   srcname: weechat
@@ -169,20 +197,17 @@
     - sheila@vulpine.house
   licenses:
     - GPL-3.0+
-- repo: cygwin
+- repo: openindiana
+  subrepo: hipster
   srcname: weechat
-  binname: weechat-lua
-  visiblename: weechat-lua
-  version: 4.10.1
-  origversion: 4.10.1-1
-  status: newest
-  summary: Fast, light and extensible chat client
-  maintainers:
-    - sebastien.helleu@cygwin
-  licenses:
-    - GPL-3.0-or-later
+  binname: network/chat/weechat
+  visiblename: weechat
+  version: 4.9.3
+  origversion: null
+  status: legacy
+  summary: WeeChat - portable, fast, light and extensible IRC client
   categories:
-    - Net
+    - Applications/Internet
 - repo: alpine_3_21
   subrepo: community
   srcname: weechat
@@ -248,20 +273,6 @@
     - julien.voisin@dustri.org
   licenses:
     - GPL-3.0-or-later
-- repo: cygwin
-  srcname: weechat
-  binname: weechat-perl
-  visiblename: weechat-perl
-  version: 4.10.1
-  origversion: 4.10.1-1
-  status: newest
-  summary: Fast, light and extensible chat client
-  maintainers:
-    - sebastien.helleu@cygwin
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Net
 - repo: alpine_3_21
   subrepo: community
   srcname: weechat
@@ -327,354 +338,25 @@
     - julien.voisin@dustri.org
   licenses:
     - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
+- repo: openindiana
+  subrepo: hipster
   srcname: weechat
-  binname: weechat-doc
-  visiblename: weechat-doc
-  version: 4.6.3
-  origversion: 4.6.3-r0
-  status: outdated
-  summary: Fast, light, extensible ncurses-based chat client (documentation)
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: weechat
-  binname: weechat-lang
-  visiblename: weechat-lang
-  version: 4.6.3
-  origversion: 4.6.3-r0
-  status: outdated
-  summary: Languages for package weechat
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: weechat
-  binname: weechat-lua
-  visiblename: weechat-lua
-  version: 4.6.3
-  origversion: 4.6.3-r0
-  status: outdated
-  summary: WeeChat lua plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: weechat
-  binname: weechat-perl
-  visiblename: weechat-perl
-  version: 4.6.3
-  origversion: 4.6.3-r0
-  status: outdated
-  summary: WeeChat perl plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: weechat
-  binname: weechat-python
-  visiblename: weechat-python
-  version: 4.6.3
-  origversion: 4.6.3-r0
-  status: outdated
-  summary: WeeChat python plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: cygwin
-  srcname: weechat
-  binname: weechat-php
-  visiblename: weechat-php
-  version: 4.10.1
-  origversion: 4.10.1-1
-  status: newest
-  summary: Fast, light and extensible chat client
-  maintainers:
-    - sebastien.helleu@cygwin
-  licenses:
-    - GPL-3.0-or-later
+  binname: network/chat/weechat
+  visiblename: weechat
+  version: 4.9.4
+  origversion: null
+  status: legacy
+  summary: WeeChat - portable, fast, light and extensible IRC client
   categories:
-    - Net
+    - Applications/Internet
 - repo: alpine_3_22
   subrepo: community
   srcname: weechat
-  binname: weechat-spell
-  visiblename: weechat-spell
+  binname: weechat-doc
+  visiblename: weechat-doc
   version: 4.6.3
   origversion: 4.6.3-r0
   status: outdated
-  summary: WeeChat spell plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: weechat
-  binname: weechat
-  visiblename: weechat
-  version: 4.8.1
-  origversion: 4.8.1-r0
-  status: outdated
-  summary: Fast, light, extensible ncurses-based chat client
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: weechat
-  binname: weechat-dev
-  visiblename: weechat-dev
-  version: 4.8.1
-  origversion: 4.8.1-r0
-  status: outdated
-  summary: Fast, light, extensible ncurses-based chat client (development files)
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: weechat
-  binname: weechat-doc
-  visiblename: weechat-doc
-  version: 4.8.1
-  origversion: 4.8.1-r0
-  status: outdated
-  summary: Fast, light, extensible ncurses-based chat client (documentation)
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: weechat
-  binname: weechat-lang
-  visiblename: weechat-lang
-  version: 4.8.1
-  origversion: 4.8.1-r0
-  status: outdated
-  summary: Languages for package weechat
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: weechat
-  binname: weechat-lua
-  visiblename: weechat-lua
-  version: 4.8.1
-  origversion: 4.8.1-r0
-  status: outdated
-  summary: WeeChat lua plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: weechat
-  binname: weechat-perl
-  visiblename: weechat-perl
-  version: 4.8.1
-  origversion: 4.8.1-r0
-  status: outdated
-  summary: WeeChat perl plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: weechat
-  binname: weechat-python
-  visiblename: weechat-python
-  version: 4.8.1
-  origversion: 4.8.1-r0
-  status: outdated
-  summary: WeeChat python plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: weechat
-  binname: weechat-spell
-  visiblename: weechat-spell
-  version: 4.8.1
-  origversion: 4.8.1-r0
-  status: outdated
-  summary: WeeChat spell plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: weechat
-  binname: weechat
-  visiblename: weechat
-  version: 4.9.2
-  origversion: 4.9.2-r0
-  status: outdated
-  summary: Fast, light, extensible ncurses-based chat client
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: cygwin
-  srcname: weechat
-  binname: weechat-python
-  visiblename: weechat-python
-  version: 4.10.1
-  origversion: 4.10.1-1
-  status: newest
-  summary: Fast, light and extensible chat client
-  maintainers:
-    - sebastien.helleu@cygwin
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Net
-- repo: alpine_3_24
-  subrepo: community
-  srcname: weechat
-  binname: weechat-dev
-  visiblename: weechat-dev
-  version: 4.9.2
-  origversion: 4.9.2-r0
-  status: outdated
-  summary: Fast, light, extensible ncurses-based chat client (development files)
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: weechat
-  binname: weechat-doc
-  visiblename: weechat-doc
-  version: 4.9.2
-  origversion: 4.9.2-r0
-  status: outdated
-  summary: Fast, light, extensible ncurses-based chat client (documentation)
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: weechat
-  binname: weechat-lang
-  visiblename: weechat-lang
-  version: 4.9.2
-  origversion: 4.9.2-r0
-  status: outdated
-  summary: Languages for package weechat
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: weechat
-  binname: weechat-lua
-  visiblename: weechat-lua
-  version: 4.9.2
-  origversion: 4.9.2-r0
-  status: outdated
-  summary: WeeChat lua plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: weechat
-  binname: weechat-perl
-  visiblename: weechat-perl
-  version: 4.9.2
-  origversion: 4.9.2-r0
-  status: outdated
-  summary: WeeChat perl plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: weechat
-  binname: weechat-python
-  visiblename: weechat-python
-  version: 4.9.2
-  origversion: 4.9.2-r0
-  status: outdated
-  summary: WeeChat python plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: weechat
-  binname: weechat-spell
-  visiblename: weechat-spell
-  version: 4.9.2
-  origversion: 4.9.2-r0
-  status: outdated
-  summary: WeeChat spell plugin
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: weechat
-  binname: weechat
-  visiblename: weechat
-  version: 4.10.1
-  origversion: 4.10.1-r0
-  status: newest
-  summary: Fast, light, extensible ncurses-based chat client
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: weechat
-  binname: weechat-dev
-  visiblename: weechat-dev
-  version: 4.10.1
-  origversion: 4.10.1-r0
-  status: newest
-  summary: Fast, light, extensible ncurses-based chat client (development files)
-  maintainers:
-    - julien.voisin@dustri.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: weechat
-  binname: weechat-doc
-  visiblename: weechat-doc
-  version: 4.10.1
-  origversion: 4.10.1-r0
-  status: newest
   summary: Fast, light, extensible ncurses-based chat client (documentation)
   maintainers:
     - julien.voisin@dustri.org
@@ -683,12 +365,346 @@
 - repo: chimera
   subrepo: main
   srcname: weechat
-  binname: weechat
-  visiblename: weechat
+  binname: weechat-lua
+  visiblename: weechat-lua
   version: 4.10.1
   origversion: 4.10.1-r1
   status: newest
-  summary: Extensible chat client
+  summary: Extensible chat client (Lua plugin)
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: weechat
+  binname: weechat-lang
+  visiblename: weechat-lang
+  version: 4.6.3
+  origversion: 4.6.3-r0
+  status: outdated
+  summary: Languages for package weechat
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: weechat
+  binname: weechat-lua
+  visiblename: weechat-lua
+  version: 4.6.3
+  origversion: 4.6.3-r0
+  status: outdated
+  summary: WeeChat lua plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: weechat
+  binname: weechat-perl
+  visiblename: weechat-perl
+  version: 4.6.3
+  origversion: 4.6.3-r0
+  status: outdated
+  summary: WeeChat perl plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: weechat
+  binname: weechat-python
+  visiblename: weechat-python
+  version: 4.6.3
+  origversion: 4.6.3-r0
+  status: outdated
+  summary: WeeChat python plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: weechat
+  binname: weechat-spell
+  visiblename: weechat-spell
+  version: 4.6.3
+  origversion: 4.6.3-r0
+  status: outdated
+  summary: WeeChat spell plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: weechat
+  binname: weechat
+  visiblename: weechat
+  version: 4.8.1
+  origversion: 4.8.1-r0
+  status: outdated
+  summary: Fast, light, extensible ncurses-based chat client
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: weechat
+  binname: weechat-dev
+  visiblename: weechat-dev
+  version: 4.8.1
+  origversion: 4.8.1-r0
+  status: outdated
+  summary: Fast, light, extensible ncurses-based chat client (development files)
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: weechat
+  binname: weechat-doc
+  visiblename: weechat-doc
+  version: 4.8.1
+  origversion: 4.8.1-r0
+  status: outdated
+  summary: Fast, light, extensible ncurses-based chat client (documentation)
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: weechat
+  binname: weechat-lang
+  visiblename: weechat-lang
+  version: 4.8.1
+  origversion: 4.8.1-r0
+  status: outdated
+  summary: Languages for package weechat
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: openindiana
+  subrepo: hipster
+  srcname: weechat
+  binname: network/chat/weechat
+  visiblename: weechat
+  version: 4.10.0
+  origversion: null
+  status: legacy
+  summary: WeeChat - portable, fast, light and extensible IRC client
+  categories:
+    - Applications/Internet
+- repo: alpine_3_23
+  subrepo: community
+  srcname: weechat
+  binname: weechat-lua
+  visiblename: weechat-lua
+  version: 4.8.1
+  origversion: 4.8.1-r0
+  status: outdated
+  summary: WeeChat lua plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: weechat
+  binname: weechat-perl
+  visiblename: weechat-perl
+  version: 4.8.1
+  origversion: 4.8.1-r0
+  status: outdated
+  summary: WeeChat perl plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: weechat
+  binname: weechat-python
+  visiblename: weechat-python
+  version: 4.8.1
+  origversion: 4.8.1-r0
+  status: outdated
+  summary: WeeChat python plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: weechat
+  binname: weechat-spell
+  visiblename: weechat-spell
+  version: 4.8.1
+  origversion: 4.8.1-r0
+  status: outdated
+  summary: WeeChat spell plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: weechat
+  binname: weechat
+  visiblename: weechat
+  version: 4.9.2
+  origversion: 4.9.2-r0
+  status: outdated
+  summary: Fast, light, extensible ncurses-based chat client
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: weechat
+  binname: weechat-dev
+  visiblename: weechat-dev
+  version: 4.9.2
+  origversion: 4.9.2-r0
+  status: outdated
+  summary: Fast, light, extensible ncurses-based chat client (development files)
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: weechat
+  binname: weechat-doc
+  visiblename: weechat-doc
+  version: 4.9.2
+  origversion: 4.9.2-r0
+  status: outdated
+  summary: Fast, light, extensible ncurses-based chat client (documentation)
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: weechat
+  binname: weechat-lang
+  visiblename: weechat-lang
+  version: 4.9.2
+  origversion: 4.9.2-r0
+  status: outdated
+  summary: Languages for package weechat
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: weechat
+  binname: weechat-lua
+  visiblename: weechat-lua
+  version: 4.9.2
+  origversion: 4.9.2-r0
+  status: outdated
+  summary: WeeChat lua plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: weechat
+  binname: weechat-perl
+  visiblename: weechat-perl
+  version: 4.9.2
+  origversion: 4.9.2-r0
+  status: outdated
+  summary: WeeChat perl plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: openindiana
+  subrepo: hipster
+  srcname: weechat
+  binname: network/chat/weechat
+  visiblename: weechat
+  version: 4.10.1
+  origversion: null
+  status: newest
+  summary: WeeChat - portable, fast, light and extensible IRC client
+  categories:
+    - Applications/Internet
+- repo: alpine_3_24
+  subrepo: community
+  srcname: weechat
+  binname: weechat-python
+  visiblename: weechat-python
+  version: 4.9.2
+  origversion: 4.9.2-r0
+  status: outdated
+  summary: WeeChat python plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: weechat
+  binname: weechat-spell
+  visiblename: weechat-spell
+  version: 4.9.2
+  origversion: 4.9.2-r0
+  status: outdated
+  summary: WeeChat spell plugin
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: weechat
+  binname: weechat
+  visiblename: weechat
+  version: 4.10.1
+  origversion: 4.10.1-r0
+  status: newest
+  summary: Fast, light, extensible ncurses-based chat client
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: weechat
+  binname: weechat-dev
+  visiblename: weechat-dev
+  version: 4.10.1
+  origversion: 4.10.1-r0
+  status: newest
+  summary: Fast, light, extensible ncurses-based chat client (development files)
+  maintainers:
+    - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: weechat
+  binname: weechat-doc
+  visiblename: weechat-doc
+  version: 4.10.1
+  origversion: 4.10.1-r0
+  status: newest
+  summary: Fast, light, extensible ncurses-based chat client (documentation)
+  maintainers:
+    - julien.voisin@dustri.org
   licenses:
     - GPL-3.0-or-later
 - repo: alpine_edge
@@ -754,6 +770,17 @@
   summary: WeeChat spell plugin
   maintainers:
     - julien.voisin@dustri.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: chimera
+  subrepo: main
+  srcname: weechat
+  binname: weechat-man
+  visiblename: weechat-man
+  version: 4.10.1
+  origversion: 4.10.1-r1
+  status: newest
+  summary: Extensible chat client (manual pages)
   licenses:
     - GPL-3.0-or-later
 - repo: aosc
@@ -802,20 +829,17 @@
   summary: Fast, light and extensible IRC client (curses UI)
   licenses:
     - GPL-3.0-only
-- repo: cygwin
+- repo: chimera
+  subrepo: main
   srcname: weechat
-  binname: weechat-devel
-  visiblename: weechat-devel
+  binname: weechat
+  visiblename: weechat
   version: 4.10.1
-  origversion: 4.10.1-1
+  origversion: 4.10.1-r1
   status: newest
-  summary: Fast, light and extensible chat client
-  maintainers:
-    - sebastien.helleu@cygwin
+  summary: Extensible chat client
   licenses:
     - GPL-3.0-or-later
-  categories:
-    - Net
 - repo: chimera
   subrepo: main
   srcname: weechat
@@ -858,28 +882,6 @@
   origversion: 4.10.1-r1
   status: newest
   summary: Extensible chat client (locale data)
-  licenses:
-    - GPL-3.0-or-later
-- repo: chimera
-  subrepo: main
-  srcname: weechat
-  binname: weechat-lua
-  visiblename: weechat-lua
-  version: 4.10.1
-  origversion: 4.10.1-r1
-  status: newest
-  summary: Extensible chat client (Lua plugin)
-  licenses:
-    - GPL-3.0-or-later
-- repo: chimera
-  subrepo: main
-  srcname: weechat
-  binname: weechat-man
-  visiblename: weechat-man
-  version: 4.10.1
-  origversion: 4.10.1-r1
-  status: newest
-  summary: Extensible chat client (manual pages)
   licenses:
     - GPL-3.0-or-later
 - repo: chimera
@@ -985,6 +987,104 @@
     - Debug
 - repo: cygwin
   srcname: weechat
+  binname: weechat-devel
+  visiblename: weechat-devel
+  version: 4.10.1
+  origversion: 4.10.1-1
+  status: newest
+  summary: Fast, light and extensible chat client
+  maintainers:
+    - sebastien.helleu@cygwin
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Net
+- repo: cygwin
+  srcname: weechat
+  binname: weechat-doc
+  visiblename: weechat-doc
+  version: 4.10.1
+  origversion: 4.10.1-1
+  status: newest
+  summary: Fast, light and extensible chat client
+  maintainers:
+    - sebastien.helleu@cygwin
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Net
+- repo: cygwin
+  srcname: weechat
+  binname: weechat-guile
+  visiblename: weechat-guile
+  version: 4.10.1
+  origversion: 4.10.1-1
+  status: newest
+  summary: Fast, light and extensible chat client
+  maintainers:
+    - sebastien.helleu@cygwin
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Net
+- repo: cygwin
+  srcname: weechat
+  binname: weechat-lua
+  visiblename: weechat-lua
+  version: 4.10.1
+  origversion: 4.10.1-1
+  status: newest
+  summary: Fast, light and extensible chat client
+  maintainers:
+    - sebastien.helleu@cygwin
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Net
+- repo: cygwin
+  srcname: weechat
+  binname: weechat-perl
+  visiblename: weechat-perl
+  version: 4.10.1
+  origversion: 4.10.1-1
+  status: newest
+  summary: Fast, light and extensible chat client
+  maintainers:
+    - sebastien.helleu@cygwin
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Net
+- repo: cygwin
+  srcname: weechat
+  binname: weechat-php
+  visiblename: weechat-php
+  version: 4.10.1
+  origversion: 4.10.1-1
+  status: newest
+  summary: Fast, light and extensible chat client
+  maintainers:
+    - sebastien.helleu@cygwin
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Net
+- repo: cygwin
+  srcname: weechat
+  binname: weechat-python
+  visiblename: weechat-python
+  version: 4.10.1
+  origversion: 4.10.1-1
+  status: newest
+  summary: Fast, light and extensible chat client
+  maintainers:
+    - sebastien.helleu@cygwin
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Net
+- repo: cygwin
+  srcname: weechat
   binname: weechat-ruby
   visiblename: weechat-ruby
   version: 4.10.1
@@ -1011,6 +1111,18 @@
     - GPL-3.0-or-later
   categories:
     - Net
+- repo: openbsd
+  srcname: net/weechat
+  binname: weechat-python
+  visiblename: net/weechat
+  version: 4.10.1
+  origversion: null
+  status: newest
+  summary: Python bindings for weechat
+  maintainers:
+    - rsadowski@openbsd.org
+  categories:
+    - net
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: weechat
@@ -1139,18 +1251,6 @@
   status: outdated
   maintainers:
     - kolter@debian.org
-- repo: openbsd
-  srcname: net/weechat
-  binname: weechat
-  visiblename: net/weechat
-  version: 4.10.1
-  origversion: null
-  status: newest
-  summary: fast, light and extensible chat client
-  maintainers:
-    - rsadowski@openbsd.org
-  categories:
-    - net
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: weechat
@@ -1431,18 +1531,6 @@
     - GPL-3+
   categories:
     - net-irc
-- repo: openbsd
-  srcname: net/weechat
-  binname: weechat
-  visiblename: net/weechat
-  version: 4.10.1
-  origversion: null
-  status: newest
-  summary: fast, light and extensible chat client
-  maintainers:
-    - rsadowski@openbsd.org
-  categories:
-    - net
 - repo: gentoo
   srcname: net-irc/weechat
   visiblename: net-irc/weechat
@@ -1574,18 +1662,6 @@
     - GPL-3+
   categories:
     - net-irc
-- repo: openbsd
-  srcname: net/weechat
-  binname: weechat-lua
-  visiblename: net/weechat
-  version: 4.10.1
-  origversion: null
-  status: newest
-  summary: Lua bindings for weechat
-  maintainers:
-    - rsadowski@openbsd.org
-  categories:
-    - net
 - repo: liguros_stable
   srcname: net-irc/weechat
   visiblename: net-irc/weechat
@@ -1722,6 +1798,29 @@
   visiblename: weechat
   version: 4.7.1
   origversion: 4.7.1-1.mga10
+  status: legacy
+  summary: Portable, fast, light and extensible IRC client
+  licenses:
+    - GPLv3
+  categories:
+    - Networking/IRC
+- repo: mageia_10
+  subrepo: core/updates
+  srcname: weechat
+  binnames:
+    - weechat
+    - weechat-perl
+    - weechat-python
+    - weechat-guile
+    - weechat-tcl
+    - weechat-ruby
+    - weechat-lua
+    - weechat-charset
+    - weechat-aspell
+    - weechat-devel
+  visiblename: weechat
+  version: 4.10.0
+  origversion: 4.10.0-1.mga10
   status: outdated
   summary: Portable, fast, light and extensible IRC client
   licenses:
@@ -1769,17 +1868,6 @@
   visiblename: weechat
   version: 4.10.1
   origversion: 4.10.1-1
-  status: newest
-  summary: Fast, light and extensible IRC client (curses UI)
-  licenses:
-    - GPL-3.0-only
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: weechat
-  binname: weechat
-  visiblename: weechat
-  version: 4.10.1
-  origversion: 4.10.1-2
   status: newest
   summary: Fast, light and extensible IRC client (curses UI)
   licenses:
@@ -1968,12 +2056,24 @@
     - GPL-3.0
 - repo: openbsd
   srcname: net/weechat
-  binname: weechat-python
+  binname: weechat
   visiblename: net/weechat
   version: 4.10.1
   origversion: null
   status: newest
-  summary: Python bindings for weechat
+  summary: fast, light and extensible chat client
+  maintainers:
+    - rsadowski@openbsd.org
+  categories:
+    - net
+- repo: openbsd
+  srcname: net/weechat
+  binname: weechat
+  visiblename: net/weechat
+  version: 4.10.1
+  origversion: null
+  status: newest
+  summary: fast, light and extensible chat client
   maintainers:
     - rsadowski@openbsd.org
   categories:
@@ -1992,82 +2092,16 @@
     - net
 - repo: openbsd
   srcname: net/weechat
-  binname: weechat-tcl
+  binname: weechat-lua
   visiblename: net/weechat
   version: 4.10.1
   origversion: null
   status: newest
-  summary: Tcl bindings for weechat
+  summary: Lua bindings for weechat
   maintainers:
     - rsadowski@openbsd.org
   categories:
     - net
-- repo: openindiana
-  subrepo: hipster
-  srcname: weechat
-  binname: network/chat/weechat
-  visiblename: weechat
-  version: 4.9.0
-  origversion: null
-  status: legacy
-  summary: WeeChat - portable, fast, light and extensible IRC client
-  categories:
-    - Applications/Internet
-- repo: openindiana
-  subrepo: hipster
-  srcname: weechat
-  binname: network/chat/weechat
-  visiblename: weechat
-  version: 4.9.2
-  origversion: null
-  status: legacy
-  summary: WeeChat - portable, fast, light and extensible IRC client
-  categories:
-    - Applications/Internet
-- repo: openindiana
-  subrepo: hipster
-  srcname: weechat
-  binname: network/chat/weechat
-  visiblename: weechat
-  version: 4.9.3
-  origversion: null
-  status: legacy
-  summary: WeeChat - portable, fast, light and extensible IRC client
-  categories:
-    - Applications/Internet
-- repo: openindiana
-  subrepo: hipster
-  srcname: weechat
-  binname: network/chat/weechat
-  visiblename: weechat
-  version: 4.9.4
-  origversion: null
-  status: legacy
-  summary: WeeChat - portable, fast, light and extensible IRC client
-  categories:
-    - Applications/Internet
-- repo: openindiana
-  subrepo: hipster
-  srcname: weechat
-  binname: network/chat/weechat
-  visiblename: weechat
-  version: 4.10.0
-  origversion: null
-  status: legacy
-  summary: WeeChat - portable, fast, light and extensible IRC client
-  categories:
-    - Applications/Internet
-- repo: openindiana
-  subrepo: hipster
-  srcname: weechat
-  binname: network/chat/weechat
-  visiblename: weechat
-  version: 4.10.1
-  origversion: null
-  status: newest
-  summary: WeeChat - portable, fast, light and extensible IRC client
-  categories:
-    - Applications/Internet
 - repo: openmandriva_6_0
   subrepo: unsupported/release
   srcname: weechat
@@ -2222,17 +2256,6 @@
   origversion: f70fbda8-1
   status: rolling
   summary: Free chat client, fast and light, designed for many operating systems
-- repo: parabola
-  subrepo: extra
-  srcname: weechat
-  binname: weechat
-  visiblename: weechat
-  version: 4.10.1
-  origversion: 4.10.1-2
-  status: newest
-  summary: Fast, light and extensible IRC client (curses UI)
-  licenses:
-    - GPL-3.0-only
 - repo: parrot
   subrepo: parrot/main
   srcname: weechat
@@ -2777,6 +2800,16 @@
   summary: IRC client
   licenses:
     - GNU General Public License, version 3.0
+- repo: gobolinux
+  srcname: Weechat
+  visiblename: Weechat
+  version: "2.8"
+  origversion: null
+  status: outdated
+  summary: WeeChat is a fast, light and extensible chat client.
+  licenses:
+    - GNU General Public License version 3
+  vulnerable: true
 - repo: adelie_current
   subrepo: user
   srcname: weechat
@@ -3680,16 +3713,6 @@
   categories:
     - Applications/Communications
   vulnerable: true
-- repo: gobolinux
-  srcname: Weechat
-  visiblename: Weechat
-  version: "2.8"
-  origversion: null
-  status: outdated
-  summary: WeeChat is a fast, light and extensible chat client.
-  licenses:
-    - GNU General Public License version 3
-  vulnerable: true
 - repo: mageia_9
   subrepo: core/release
   srcname: weechat
@@ -3754,33 +3777,6 @@
   categories:
     - Productivity/Networking/IRC
   vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: weechat
-  binnames:
-    - weechat
-    - weechat-core
-    - weechat-curses
-    - weechat-dev
-    - weechat-doc
-    - weechat-guile
-    - weechat-headless
-    - weechat-lua
-    - weechat-perl
-    - weechat-php
-    - weechat-plugins
-    - weechat-python
-    - weechat-ruby
-    - weechat-tcl
-  visiblename: weechat
-  version: "3.0"
-  origversion: 3.0-1+deb11u1
-  status: outdated
-  maintainers:
-    - kolter@debian.org
-  categories:
-    - net
-  vulnerable: true
 - repo: pardus_21
   subrepo: main
   srcname: weechat
@@ -3839,6 +3835,33 @@
   visiblename: weechat
   version: "2.3"
   origversion: 2.3-1+deb10u1
+  status: outdated
+  maintainers:
+    - kolter@debian.org
+  categories:
+    - net
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: weechat
+  binnames:
+    - weechat
+    - weechat-core
+    - weechat-curses
+    - weechat-dev
+    - weechat-doc
+    - weechat-guile
+    - weechat-headless
+    - weechat-lua
+    - weechat-perl
+    - weechat-php
+    - weechat-plugins
+    - weechat-python
+    - weechat-ruby
+    - weechat-tcl
+  visiblename: weechat
+  version: "3.0"
+  origversion: 3.0-1+deb11u1
   status: outdated
   maintainers:
     - kolter@debian.org
