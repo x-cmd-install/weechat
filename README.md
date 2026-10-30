@@ -14,14 +14,14 @@ x install weechat
 
 ## Code insight
 
-Total: **452,759** lines of code across **755** files in the top 5 languages.
+Total: **452,919** lines of code across **755** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 223,460 | 32,322 | 37,935 | 251 |
+| C | 223,505 | 32,338 | 37,941 | 251 |
 | AsciiDoc | 149,169 | 3,435 | 47,931 | 112 |
-| Cpp | 57,078 | 14,558 | 13,186 | 130 |
-| CHeader | 14,258 | 2,046 | 2,449 | 257 |
+| Cpp | 57,187 | 14,583 | 13,203 | 130 |
+| CHeader | 14,264 | 2,057 | 2,451 | 257 |
 | Python | 3,657 | 161 | 410 | 5 |
 
 ## OpenSSF Scorecard
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.10.1` (2026-09-05)
-- **Last commit**: 2026-10-21
+- **Last commit**: 2026-10-29
 
 ## Popularity
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 89 · **Merged PRs**: 402 · **Open PRs**: 35 · **Closed issues**: 1271 · **Open issues**: 351 · **Commits**: 14395
+- **Releases**: 89 · **Merged PRs**: 402 · **Open PRs**: 35 · **Closed issues**: 1271 · **Open issues**: 351 · **Commits**: 14400
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 0 | 0 | 3 | 1 | 249 |
-| last60d | 2026-08-30 | 1 | 2 | 0 | 5 | 2 | 354 |
-| 90d | 2026-07-31 | 2 | 2 | 0 | 6 | 4 | 436 |
-| last180d | 2026-05-02 | 7 | 10 | 0 | 8 | 7 | 657 |
-| 360d | 2025-11-03 | 12 | 16 | 1 | 20 | 16 | 887 |
-| last720d | 2024-11-08 | 22 | 30 | 2 | 48 | 28 | 1231 |
+| 30d | 2026-09-30 | 0 | 0 | 0 | 3 | 1 | 254 |
+| last60d | 2026-08-31 | 1 | 2 | 0 | 5 | 2 | 359 |
+| 90d | 2026-08-01 | 2 | 2 | 0 | 6 | 4 | 441 |
+| last180d | 2026-05-03 | 7 | 10 | 0 | 8 | 7 | 662 |
+| 360d | 2025-11-04 | 12 | 16 | 1 | 20 | 16 | 892 |
+| last720d | 2024-11-09 | 22 | 30 | 2 | 48 | 28 | 1236 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T07:16:21Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T07:01:05Z._
