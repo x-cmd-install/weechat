@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,418 · **Forks**: 364 · **Open issues**: 1,622 · **Contributors**: 175
+- **Stars**: 3,418 · **Forks**: 365 · **Open issues**: 1,622 · **Contributors**: 175
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 0 | 0 | 0 | 3 | 1 | 254 |
-| last60d | 2026-08-31 | 1 | 2 | 0 | 5 | 2 | 359 |
-| 90d | 2026-08-01 | 2 | 2 | 0 | 6 | 4 | 441 |
-| last180d | 2026-05-03 | 7 | 10 | 0 | 8 | 7 | 662 |
-| 360d | 2025-11-04 | 12 | 16 | 1 | 20 | 16 | 892 |
-| last720d | 2024-11-09 | 22 | 30 | 2 | 48 | 28 | 1236 |
+| 30d | 2026-10-01 | 0 | 0 | 0 | 3 | 1 | 254 |
+| last60d | 2026-09-01 | 1 | 2 | 0 | 5 | 2 | 359 |
+| 90d | 2026-08-02 | 2 | 2 | 0 | 6 | 4 | 441 |
+| last180d | 2026-05-04 | 7 | 10 | 0 | 8 | 7 | 662 |
+| 360d | 2025-11-05 | 12 | 16 | 1 | 20 | 16 | 892 |
+| last720d | 2024-11-10 | 22 | 30 | 2 | 48 | 28 | 1236 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T07:01:05Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T06:52:56Z._
