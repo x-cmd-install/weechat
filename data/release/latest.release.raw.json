@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/weechat/weechat/releases/383186345",
-  "assets_url": "https://api.github.com/repos/weechat/weechat/releases/383186345/assets",
-  "upload_url": "https://uploads.github.com/repos/weechat/weechat/releases/383186345/assets{?name,label}",
-  "html_url": "https://github.com/weechat/weechat/releases/tag/v4.10.1",
-  "id": 383186345,
+  "url": "https://api.github.com/repos/weechat/weechat/releases/429819514",
+  "assets_url": "https://api.github.com/repos/weechat/weechat/releases/429819514/assets",
+  "upload_url": "https://uploads.github.com/repos/weechat/weechat/releases/429819514/assets{?name,label}",
+  "html_url": "https://github.com/weechat/weechat/releases/tag/v4.10.2",
+  "id": 429819514,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAQjhas4W1vWp",
-  "tag_name": "v4.10.1",
+  "node_id": "RE_kwDOAQjhas4ZnoZ6",
+  "tag_name": "v4.10.2",
   "target_commitish": "main",
-  "name": "v4.10.1",
+  "name": "v4.10.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-05T08:34:41Z",
-  "updated_at": "2026-09-05T08:37:03Z",
-  "published_at": "2026-09-05T08:37:03Z",
+  "created_at": "2026-10-31T08:39:33Z",
+  "updated_at": "2026-10-31T08:46:16Z",
+  "published_at": "2026-10-31T08:46:16Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/weechat/weechat/tarball/v4.10.1",
-  "zipball_url": "https://api.github.com/repos/weechat/weechat/zipball/v4.10.1",
-  "body": "### Fixed\n\n- irc: fix memory leak in SASL authentication with mechanism \"ecdsa-nist256p-challenge\"\n- irc: reject an empty SASL challenge received with mechanism \"ecdsa-nist256p-challenge\"\n\n### Security\n\n- relay: limit size of data queued for sending to a client to prevent memory exhaustion ([#2357](https://github.com/weechat/weechat/issues/2357))\n- relay: reject fragmented, compressed or oversized websocket control frames received from a client ([#2356](https://github.com/weechat/weechat/issues/2356))\n- relay: limit size of partial message received from a client to prevent memory exhaustion ([#2347](https://github.com/weechat/weechat/issues/2347))\n- script: reject script names containing path separators in the scripts repository file to prevent writing files outside the scripts directory ([#2351](https://github.com/weechat/weechat/issues/2351))\n- xfer: fix comparison of status in search of transfers, preventing a remote peer from starting a file transfer that was not accepted by the user ([#2352](https://github.com/weechat/weechat/issues/2352))\n- xfer: limit size of partial message received in DCC chat to prevent memory exhaustion ([#2349](https://github.com/weechat/weechat/issues/2349))\n- xfer: remove path from filename received in DCC file transfer to prevent writing the file outside the download directory ([#2348](https://github.com/weechat/weechat/issues/2348))\n"
+  "tarball_url": "https://api.github.com/repos/weechat/weechat/tarball/v4.10.2",
+  "zipball_url": "https://api.github.com/repos/weechat/weechat/zipball/v4.10.2",
+  "body": "### Fixed\n\n- core: fix freeze when displaying a very long message, for example a corrupted log file displayed in backlog ([#637](https://github.com/weechat/weechat/issues/637))\n- core: fix memory leak when the last buffer is closed\n- api: fix compilation error with macro weechat_file_compare\n- guile: fix return value of functions mkdir_home, mkdir and mkdir_parents when the directory cannot be created\n- perl: fix wrong arguments error in function nicklist_remove_all\n- relay/api: fix memory leak when a message without body is sent to a client connected with websocket\n- tcl: return 0 instead of raising an error in functions mkdir_home, mkdir and mkdir_parents when the directory cannot be created\n- tcl: add missing function completion_free\n\n### Security\n\n- core: fix integer overflow in dynamic strings when their size exceeds 4 GiB ([GHSA-h394-85x4-68c7](https://github.com/weechat/weechat/security/advisories/GHSA-h394-85x4-68c7))\n- core: fix heap buffer overflow in charset conversion when the converted string is more than 4 times longer than the input and contains invalid chars, for example with charset TSCII ([GHSA-q32h-5qvq-3936](https://github.com/weechat/weechat/security/advisories/GHSA-q32h-5qvq-3936))\n- irc: limit number of prefix modes in PREFIX of message 005 to prevent memory exhaustion\n- irc: escape `${` in values of variables `$nick`, `$channel` and `$server` in commands `/allchan`, `/allpv` and `/allserv`, to prevent evaluation of untrusted values\n- irc: escape `${` in server options addresses, nicks, password and autojoin set from an IRC URL (`irc://...`), to prevent evaluation of untrusted values\n- irc: escape `${` in channel names saved in server option autojoin, to prevent evaluation of channel names received from the server (for example on channel forward)\n- irc: fix heap buffer overflow in nick prefixes when the server sends an empty PREFIX in message 005 and the connection is lost before message 001 ([GHSA-xj8h-x2w9-m8m6](https://github.com/weechat/weechat/security/advisories/GHSA-xj8h-x2w9-m8m6))\n- relay: limit size of HTTP headers received from a client to prevent memory exhaustion ([GHSA-h394-85x4-68c7](https://github.com/weechat/weechat/security/advisories/GHSA-h394-85x4-68c7))\n- relay: fix heap buffer overflow in path of hdata sent to clients with \"weechat\" protocol ([GHSA-8wr2-x42m-7fxv](https://github.com/weechat/weechat/security/advisories/GHSA-8wr2-x42m-7fxv))\n"
 }
