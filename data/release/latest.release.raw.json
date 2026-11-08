@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/weechat/weechat/releases/429819514",
-  "assets_url": "https://api.github.com/repos/weechat/weechat/releases/429819514/assets",
-  "upload_url": "https://uploads.github.com/repos/weechat/weechat/releases/429819514/assets{?name,label}",
-  "html_url": "https://github.com/weechat/weechat/releases/tag/v4.10.2",
-  "id": 429819514,
+  "url": "https://api.github.com/repos/weechat/weechat/releases/437417641",
+  "assets_url": "https://api.github.com/repos/weechat/weechat/releases/437417641/assets",
+  "upload_url": "https://uploads.github.com/repos/weechat/weechat/releases/437417641/assets{?name,label}",
+  "html_url": "https://github.com/weechat/weechat/releases/tag/v4.10.3",
+  "id": 437417641,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAQjhas4ZnoZ6",
-  "tag_name": "v4.10.2",
+  "node_id": "RE_kwDOAQjhas4aEnap",
+  "tag_name": "v4.10.3",
   "target_commitish": "main",
-  "name": "v4.10.2",
+  "name": "v4.10.3",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-31T08:39:33Z",
-  "updated_at": "2026-10-31T08:46:16Z",
-  "published_at": "2026-10-31T08:46:16Z",
+  "created_at": "2026-11-07T07:31:51Z",
+  "updated_at": "2026-11-07T07:36:56Z",
+  "published_at": "2026-11-07T07:36:56Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/weechat/weechat/tarball/v4.10.2",
-  "zipball_url": "https://api.github.com/repos/weechat/weechat/zipball/v4.10.2",
-  "body": "### Fixed\n\n- core: fix freeze when displaying a very long message, for example a corrupted log file displayed in backlog ([#637](https://github.com/weechat/weechat/issues/637))\n- core: fix memory leak when the last buffer is closed\n- api: fix compilation error with macro weechat_file_compare\n- guile: fix return value of functions mkdir_home, mkdir and mkdir_parents when the directory cannot be created\n- perl: fix wrong arguments error in function nicklist_remove_all\n- relay/api: fix memory leak when a message without body is sent to a client connected with websocket\n- tcl: return 0 instead of raising an error in functions mkdir_home, mkdir and mkdir_parents when the directory cannot be created\n- tcl: add missing function completion_free\n\n### Security\n\n- core: fix integer overflow in dynamic strings when their size exceeds 4 GiB ([GHSA-h394-85x4-68c7](https://github.com/weechat/weechat/security/advisories/GHSA-h394-85x4-68c7))\n- core: fix heap buffer overflow in charset conversion when the converted string is more than 4 times longer than the input and contains invalid chars, for example with charset TSCII ([GHSA-q32h-5qvq-3936](https://github.com/weechat/weechat/security/advisories/GHSA-q32h-5qvq-3936))\n- irc: limit number of prefix modes in PREFIX of message 005 to prevent memory exhaustion\n- irc: escape `${` in values of variables `$nick`, `$channel` and `$server` in commands `/allchan`, `/allpv` and `/allserv`, to prevent evaluation of untrusted values\n- irc: escape `${` in server options addresses, nicks, password and autojoin set from an IRC URL (`irc://...`), to prevent evaluation of untrusted values\n- irc: escape `${` in channel names saved in server option autojoin, to prevent evaluation of channel names received from the server (for example on channel forward)\n- irc: fix heap buffer overflow in nick prefixes when the server sends an empty PREFIX in message 005 and the connection is lost before message 001 ([GHSA-xj8h-x2w9-m8m6](https://github.com/weechat/weechat/security/advisories/GHSA-xj8h-x2w9-m8m6))\n- relay: limit size of HTTP headers received from a client to prevent memory exhaustion ([GHSA-h394-85x4-68c7](https://github.com/weechat/weechat/security/advisories/GHSA-h394-85x4-68c7))\n- relay: fix heap buffer overflow in path of hdata sent to clients with \"weechat\" protocol ([GHSA-8wr2-x42m-7fxv](https://github.com/weechat/weechat/security/advisories/GHSA-8wr2-x42m-7fxv))\n"
+  "tarball_url": "https://api.github.com/repos/weechat/weechat/tarball/v4.10.3",
+  "zipball_url": "https://api.github.com/repos/weechat/weechat/zipball/v4.10.3",
+  "body": "### Fixed\n\n- core: fix send of uninitialized data to socks4 proxy when the username has 127 chars or more, or when the address can not be resolved\n- core: fix completion of command and command arguments when there is text with spaces after the cursor\n- core: fix plural form in Italian translations, use plural for zero\n- fset, irc, script: fix freeze when the fset, script or `/list` buffer is scrolled in a window too small to display the chat area\n- irc: remove extra spaces after \"online\" in notify list\n- irc: fix memory leak when receiving the reply to ISON command sent for notify list\n- irc: fix display of channels without topic in `/list` buffer\n- irc: remove local variables \"nick\" and \"host\" in server and channel buffers on disconnection\n- irc, relay: display error code 0 instead of the last error code when the connection is closed by the peer\n- irc: keep the number of connection retries of each server address when switching to the next address, so that the next IP of an address is tried on next connection\n- irc: fix display of messages sent to the server in raw buffer, displayed twice and marked as modified even when no modifier changed them\n- relay: fix memory leak when relay clients are restored after `/upgrade`\n- trigger: set variables \"tg_trigger_name\" and \"tg_hook_type\" in focus triggers, do not add them in the hashtable returned\n- xfer: fix memory leak of token in passive DCC transfers\n- xfer: fix send of files greater than 4 GiB with DCC, the transfer failed or stalled after 4 GiB\n- xfer: fix timeout of transfers when option xfer.network.timeout is greater than 2147483 seconds\n- xfer: fix socket closed twice when a transfer cannot be created\n- xfer: fix crash when the size of a received file is missing in signal \"xfer_add\"\n- xfer: ignore data received beyond the file size in DCC file transfer\n- xfer: fix infinite loop in child process when resuming a file shorter than the resume position\n- xfer: do not start the transfer when the file to send cannot be opened\n\n### Security\n\n- irc: refuse SASL success with SCRAM mechanisms when the server signature has not been verified, to enforce mutual authentication\n- irc: refuse SCRAM server nonce that does not start with the client nonce\n- irc: refuse SCRAM iteration count lower than 4096 received from the server, to prevent offline dictionary attacks on the client proof, or greater than 1000000, to prevent blocking WeeChat for a long time\n- relay/api: refuse number of hash iterations lower than 1 or greater than 1000000 received from the remote relay, to prevent blocking WeeChat for a long time\n- relay: ignore IRC messages longer than 4096 bytes received from a client and reply with numeric 417 (ERR_INPUTTOOLONG), to prevent blocking WeeChat and consuming a lot of memory when parsing huge messages ([#2367](https://github.com/weechat/weechat/issues/2367))\n- xfer: compare the whole server name in option xfer.file.auto_accept_nicks, so that a nick is not auto-accepted on another server whose name starts with the same chars\n- xfer: validate resume position received in DCC RESUME and DCC ACCEPT, to prevent a remote peer from completing a file transfer with a truncated file ([#2369](https://github.com/weechat/weechat/pull/2369))\n"
 }
