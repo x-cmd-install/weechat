@@ -31,8 +31,8 @@ Overall score: **6.5 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Dangerous-Workflow** (-1/10) — no workflows found
-- **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 3 | 1 | 3 | 2 | 1 | 256 |
-| last60d | 2026-09-11 | 3 | 1 | 3 | 4 | 2 | 460 |
-| 90d | 2026-08-12 | 4 | 3 | 3 | 5 | 3 | 583 |
-| last180d | 2026-05-14 | 10 | 10 | 3 | 8 | 7 | 815 |
-| 360d | 2025-11-15 | 15 | 17 | 4 | 18 | 16 | 1001 |
-| last720d | 2024-11-20 | 25 | 29 | 4 | 48 | 26 | 1388 |
+| 30d | 2026-10-12 | 3 | 1 | 3 | 2 | 1 | 256 |
+| last60d | 2026-09-12 | 3 | 1 | 3 | 4 | 2 | 460 |
+| 90d | 2026-08-13 | 4 | 3 | 3 | 5 | 3 | 583 |
+| last180d | 2026-05-15 | 10 | 10 | 3 | 8 | 7 | 815 |
+| 360d | 2025-11-16 | 15 | 17 | 4 | 18 | 15 | 1001 |
+| last720d | 2024-11-21 | 25 | 29 | 4 | 48 | 26 | 1386 |
 
 ## Distribution status
 
-Reported by **272** distros on [repology.org](https://repology.org/project/weechat). **32** are ✅ on the latest upstream release, **202** are ⚠️ on an older version.
+Reported by **272** distros on [repology.org](https://repology.org/project/weechat). **49** are ✅ on the latest upstream release, **185** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -79,7 +79,7 @@ Reported by **272** distros on [repology.org](https://repology.org/project/weech
 | Homebrew | `4.10.4` | ✅ latest |
 | Fedora rawhide | `4.10.4` | ✅ latest |
 | Nix unstable | `4.10.2` | ⚠️ outdated |
-| Void | `4.10.2` | ⚠️ outdated |
+| Void | `4.10.4` | ✅ latest |
 | Alpine edge | `4.10.4` | ✅ latest |
 | openSUSE Tumbleweed | `4.10.2` | ⚠️ outdated |
 
@@ -92,4 +92,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:57:23Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:51:32Z._
