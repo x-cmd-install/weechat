@@ -14,14 +14,14 @@ x install weechat
 
 ## Code insight
 
-Total: **475,239** lines of code across **771** files in the top 5 languages.
+Total: **477,857** lines of code across **774** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 225,155 | 33,239 | 38,320 | 251 |
-| AsciiDoc | 150,885 | 3,581 | 48,346 | 112 |
-| Cpp | 75,513 | 17,363 | 16,461 | 145 |
-| CHeader | 14,395 | 2,082 | 2,470 | 257 |
+| C | 225,251 | 33,284 | 38,376 | 251 |
+| AsciiDoc | 151,027 | 3,601 | 48,385 | 112 |
+| Cpp | 77,784 | 17,442 | 16,805 | 148 |
+| CHeader | 14,403 | 2,087 | 2,471 | 257 |
 | Python | 3,908 | 171 | 438 | 6 |
 
 ## OpenSSF Scorecard
@@ -30,9 +30,9 @@ Overall score: **6.5 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Dangerous-Workflow** (-1/10) — no workflows found
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
 
@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.10.4` (2026-11-09)
-- **Last commit**: 2026-11-17
+- **Last commit**: 2026-11-18
 
 ## Popularity
 
-- **Stars**: 3,417 · **Forks**: 367 · **Open issues**: 1,627 · **Contributors**: 177
+- **Stars**: 3,420 · **Forks**: 367 · **Open issues**: 1,627 · **Contributors**: 177
 
 ## Totals (cumulative)
 
-- **Releases**: 92 · **Merged PRs**: 403 · **Open PRs**: 31 · **Closed issues**: 1284 · **Open issues**: 343 · **Commits**: 14624
+- **Releases**: 92 · **Merged PRs**: 403 · **Open PRs**: 30 · **Closed issues**: 1284 · **Open issues**: 343 · **Commits**: 14639
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 3 | 1 | 3 | 4 | 1 | 230 |
-| last60d | 2026-09-18 | 3 | 1 | 3 | 6 | 2 | 496 |
-| 90d | 2026-08-19 | 4 | 3 | 3 | 7 | 3 | 624 |
-| last180d | 2026-05-21 | 10 | 10 | 3 | 10 | 7 | 864 |
-| 360d | 2025-11-22 | 15 | 17 | 4 | 19 | 15 | 1048 |
-| last720d | 2024-11-27 | 25 | 29 | 4 | 49 | 26 | 1425 |
+| 30d | 2026-10-20 | 3 | 1 | 2 | 3 | 1 | 246 |
+| last60d | 2026-09-20 | 3 | 1 | 2 | 6 | 2 | 512 |
+| 90d | 2026-08-21 | 4 | 3 | 2 | 7 | 2 | 640 |
+| last180d | 2026-05-23 | 10 | 10 | 2 | 10 | 7 | 880 |
+| 360d | 2025-11-24 | 14 | 16 | 3 | 19 | 15 | 1064 |
+| last720d | 2024-11-29 | 25 | 29 | 3 | 49 | 26 | 1440 |
 
 ## Distribution status
 
-Reported by **274** distros on [repology.org](https://repology.org/project/weechat). **65** are ✅ on the latest upstream release, **169** are ⚠️ on an older version.
+Reported by **273** distros on [repology.org](https://repology.org/project/weechat). **71** are ✅ on the latest upstream release, **162** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:41:01Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T09:09:15Z._
