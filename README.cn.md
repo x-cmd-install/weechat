@@ -57,16 +57,16 @@ x install weechat
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 3 | 1 | 2 | 2 | 0 | 268 |
-| last60d | 2026-09-24 | 3 | 1 | 2 | 5 | 2 | 523 |
-| 90d | 2026-08-25 | 4 | 3 | 2 | 7 | 2 | 628 |
-| last180d | 2026-05-27 | 10 | 10 | 2 | 10 | 6 | 890 |
-| 360d | 2025-11-28 | 14 | 16 | 3 | 19 | 15 | 1074 |
-| last720d | 2024-12-03 | 24 | 29 | 3 | 49 | 26 | 1466 |
+| 30d | 2026-10-25 | 3 | 1 | 2 | 2 | 0 | 268 |
+| last60d | 2026-09-25 | 3 | 1 | 2 | 5 | 1 | 523 |
+| 90d | 2026-08-26 | 4 | 3 | 2 | 7 | 2 | 628 |
+| last180d | 2026-05-28 | 10 | 10 | 2 | 10 | 6 | 890 |
+| 360d | 2025-11-29 | 14 | 16 | 3 | 19 | 15 | 1074 |
+| last720d | 2024-12-04 | 24 | 29 | 3 | 49 | 26 | 1466 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/weechat) 上共有 **273** 个发行版报告此项目。**72** 个 ✅ 已是最新上游版本，**161** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/weechat) 上共有 **273** 个发行版报告此项目。**73** 个 ✅ 已是最新上游版本，**160** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -76,7 +76,7 @@ x install weechat
 | Ubuntu 26.04 LTS | `4.8.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.1.1` | ⚠️ outdated |
 | Arch | `4.10.4` | ✅ latest |
-| Homebrew | `4.10.4` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `4.10.4` | ✅ latest |
 | Nix unstable | `4.10.4` | ✅ latest |
 | Void | `4.10.4` | ✅ latest |
@@ -92,4 +92,4 @@ weechat 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T11:05:00Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T11:47:59Z._
