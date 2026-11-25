@@ -14,13 +14,13 @@ x install weechat
 
 ## Code insight
 
-Total: **479,714** lines of code across **774** files in the top 5 languages.
+Total: **479,936** lines of code across **774** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 225,778 | 33,532 | 38,460 | 251 |
-| AsciiDoc | 151,212 | 3,622 | 48,417 | 112 |
-| Cpp | 78,913 | 17,619 | 16,937 | 148 |
+| C | 225,864 | 33,557 | 38,471 | 251 |
+| AsciiDoc | 151,297 | 3,625 | 48,422 | 112 |
+| Cpp | 78,964 | 17,620 | 16,938 | 148 |
 | CHeader | 14,409 | 2,087 | 2,473 | 257 |
 | Python | 3,908 | 171 | 438 | 6 |
 
@@ -31,8 +31,8 @@ Overall score: **6.5 / 10**
 Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## Source
 
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.10.4` (2026-11-09)
-- **Last commit**: 2026-11-22
+- **Last commit**: 2026-11-24
 
 ## Popularity
 
@@ -51,37 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 92 · **Merged PRs**: 403 · **Open PRs**: 30 · **Closed issues**: 1284 · **Open issues**: 343 · **Commits**: 14667
+- **Releases**: 92 · **Merged PRs**: 403 · **Open PRs**: 30 · **Closed issues**: 1284 · **Open issues**: 343 · **Commits**: 14668
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 3 | 1 | 2 | 2 | 0 | 268 |
-| last60d | 2026-09-25 | 3 | 1 | 2 | 5 | 1 | 523 |
-| 90d | 2026-08-26 | 4 | 3 | 2 | 7 | 2 | 628 |
-| last180d | 2026-05-28 | 10 | 10 | 2 | 10 | 6 | 890 |
-| 360d | 2025-11-29 | 14 | 16 | 3 | 19 | 15 | 1074 |
-| last720d | 2024-12-04 | 24 | 29 | 3 | 49 | 26 | 1466 |
-
-## Distribution status
-
-Reported by **273** distros on [repology.org](https://repology.org/project/weechat). **73** are ✅ on the latest upstream release, **160** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `4.10.0` | ⚠️ outdated |
-| Debian 14 | `4.10.0` | ⚠️ outdated |
-| Debian 13 | `4.6.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.8.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `4.1.1` | ⚠️ outdated |
-| Arch | `4.10.4` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `4.10.4` | ✅ latest |
-| Nix unstable | `4.10.4` | ✅ latest |
-| Void | `4.10.4` | ✅ latest |
-| Alpine edge | `4.10.4` | ✅ latest |
-| openSUSE Tumbleweed | `4.10.4` | ✅ latest |
+| 30d | 2026-10-26 | 3 | 1 | 2 | 2 | 0 | 269 |
+| last60d | 2026-09-26 | 3 | 1 | 2 | 5 | 1 | 524 |
+| 90d | 2026-08-27 | 4 | 3 | 2 | 7 | 2 | 629 |
+| last180d | 2026-05-29 | 10 | 10 | 2 | 10 | 6 | 891 |
+| 360d | 2025-11-30 | 14 | 16 | 3 | 19 | 15 | 1075 |
+| last720d | 2024-12-05 | 24 | 29 | 3 | 49 | 26 | 1466 |
 
 ## Improve this data
 
@@ -92,4 +73,4 @@ Install metadata for weechat lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:47:58Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:04:57Z._
