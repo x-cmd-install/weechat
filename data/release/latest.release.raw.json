@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/weechat/weechat/releases/439105481",
-  "assets_url": "https://api.github.com/repos/weechat/weechat/releases/439105481/assets",
-  "upload_url": "https://uploads.github.com/repos/weechat/weechat/releases/439105481/assets{?name,label}",
-  "html_url": "https://github.com/weechat/weechat/releases/tag/v4.10.4",
-  "id": 439105481,
+  "url": "https://api.github.com/repos/weechat/weechat/releases/459854977",
+  "assets_url": "https://api.github.com/repos/weechat/weechat/releases/459854977/assets",
+  "upload_url": "https://uploads.github.com/repos/weechat/weechat/releases/459854977/assets{?name,label}",
+  "html_url": "https://github.com/weechat/weechat/releases/tag/v4.10.5",
+  "id": 459854977,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,32 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAQjhas4aLDfJ",
-  "tag_name": "v4.10.4",
+  "node_id": "RE_kwDOAQjhas4baNSB",
+  "tag_name": "v4.10.5",
   "target_commitish": "main",
-  "name": "v4.10.4",
+  "name": "v4.10.5",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-09T12:20:23Z",
-  "updated_at": "2026-11-09T12:26:53Z",
-  "published_at": "2026-11-09T12:26:53Z",
+  "created_at": "2026-11-26T20:03:07Z",
+  "updated_at": "2026-11-26T20:05:47Z",
+  "published_at": "2026-11-26T20:05:47Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/weechat/weechat/tarball/v4.10.4",
-  "zipball_url": "https://api.github.com/repos/weechat/weechat/zipball/v4.10.4",
-  "body": "### Added\n\n- build/container: add files to build container images (Debian and Alpine) from the local sources, moved from repository [weechat-container](https://github.com/weechat/weechat-container)\n\n### Fixed\n\n- core: fix memory leak when the upgrade file can not be read on startup with option `--upgrade`\n- core: fix memory leak in input of buffers restored by command `/upgrade`\n- core: fix crash in info \"color_rgb2term\" when the limit is greater than 256\n- irc: fix use after free of a deleted server in raw messages, which could cause a crash in raw buffer or on `/upgrade`\n\n### Security\n\n- relay: require exactly 6 digits in TOTP received from a client with \"api\" and \"weechat\" protocols\n- relay: check only the first password and TOTP received in command \"init\" of \"weechat\" protocol, to prevent a client from blocking WeeChat with many password checks (like PBKDF2) in a single message ([#2368](https://github.com/weechat/weechat/pull/2368))\n",
-  "reactions": {
-    "url": "https://api.github.com/repos/weechat/weechat/releases/439105481/reactions",
-    "total_count": 1,
-    "+1": 0,
-    "-1": 0,
-    "laugh": 0,
-    "hooray": 0,
-    "confused": 0,
-    "heart": 1,
-    "rocket": 0,
-    "eyes": 0
-  }
+  "tarball_url": "https://api.github.com/repos/weechat/weechat/tarball/v4.10.5",
+  "zipball_url": "https://api.github.com/repos/weechat/weechat/zipball/v4.10.5",
+  "body": "### Fixed\n\n- core: fix loss of secured data still encrypted in file sec.conf after a partial decryption with command `/secure decrypt`\n- core: fix decryption of secured data with a comma in name with command `/secure decrypt`\n- core: keep secured data encrypted when it cannot be decrypted with the passphrase on reload of file sec.conf, instead of deleting it\n- core: fix memory leak in completion of plugin commands when the plugin is not found\n- core: fix crash when a plugin is unloaded or reloaded with command `/plugin` executed by a plugin or script, delay the command ([#2380](https://github.com/weechat/weechat/issues/2380))\n- core: fix crash when command `/upgrade` is executed by a script, execute the upgrade in the main loop ([#2380](https://github.com/weechat/weechat/issues/2380))\n- irc: display reply to CTCP PING with a single argument, which was ignored\n- irc: add missing tag \"irc_ctcp\" in display of CTCP reply without arguments\n- irc: ignore text after a received CTCP, which was parsed as another CTCP (one message could trigger two CTCP replies)\n- irc: fix display of own CTCP when there is text after the CTCP\n- perl: fix warnings \"Subroutine redefined\" when loading multiple scripts with Perl built without multiplicity\n- ruby: restore the current script when a function of a script fails\n- scripts: fix crash when a script is unloaded or reloaded while one of its functions is running, delay the unload until the function has returned ([#2380](https://github.com/weechat/weechat/issues/2380))\n- xfer: fix possible removal of an unrelated hook when a transfer lasts longer than the timeout (option xfer.network.timeout)\n- xfer: fail a file receive when DCC ACCEPT is not received after a resume request, after the timeout (option xfer.network.timeout), and release the socket and port of a passive receive\n- xfer: fail the transfer when option xfer.network.port_range contains a port lower than 1 or greater than 65535, instead of binding an unexpected port or looping forever\n\n### Security\n\n- core: fix decoding of incomplete WeeChat color codes in functions string_remove_color and string_color_code_size, which could remove the sender of an IRC message received with a crafted message tag ([#2382](https://github.com/weechat/weechat/pull/2382))\n- xfer: open the socket of a passive file receive (reverse DCC) only when the transfer is accepted, to prevent a remote peer from exhausting file descriptors with many DCC offers ([#2384](https://github.com/weechat/weechat/pull/2384))\n"
 }
