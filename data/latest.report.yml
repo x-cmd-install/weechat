@@ -2,20 +2,20 @@ about:
   description: "The extensible chat client."
   license: GPL-3.0
   homepage: https://weechat.org
-  head: c51bbaf
+  head: 243613c
   archived: false
   latestVersion: "v4.10.5"
   latestRelease: "v4.10.5"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:46:42Z
+  collectedAt: 2026-11-28T09:25:15Z
 timeline:
   created: 2014-03-03
-  lastCommit: 2026-11-27
+  lastCommit: 2026-11-28
   lastVersion: 2026-11-26
   lastRelease: 2026-11-26
   lastPrerelease: 
 popularity:
-  star: 3421
+  star: 3423
   watcher: 76
   fork: 368
   release: 93
@@ -23,92 +23,92 @@ popularity:
   pullRequest: 739
   issue: 1628
 language:
-  C: 10335258
-  C++: 3958454
+  C: 10346078
+  C++: 3968502
   Python: 264569
-  CMake: 77166
-  Shell: 28254
+  CMake: 78123
+  Shell: 28256
   PHP: 16313
-totalBytes: 14680014
+totalBytes: 14701841
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 4
     mergedPR: 1
     openPR: 2
     closedIssue: 2
     openIssue: 1
-    commit: 274
+    commit: 287
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 4
     mergedPR: 1
     openPR: 2
     closedIssue: 5
     openIssue: 2
-    commit: 529
+    commit: 542
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 5
     mergedPR: 3
     openPR: 2
     closedIssue: 7
     openIssue: 3
-    commit: 634
+    commit: 647
   last180d:
-    since: 2026-05-31
-    release: 11
-    mergedPR: 10
+    since: 2026-06-01
+    release: 10
+    mergedPR: 9
     openPR: 2
     closedIssue: 10
     openIssue: 7
-    commit: 896
+    commit: 909
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 13
     mergedPR: 16
     openPR: 3
     closedIssue: 18
     openIssue: 16
-    commit: 1080
+    commit: 1093
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 25
     mergedPR: 29
     openPR: 3
     closedIssue: 48
     openIssue: 27
-    commit: 1471
+    commit: 1484
 total:
   release: 93
   mergedPR: 403
   openPR: 30
   closedIssue: 1284
   openIssue: 344
-  commit: 14673
+  commit: 14686
 ---
 path: /home/runner/.x-repo/github.com/weechat/weechat
-collectedAt: 2026-11-27T09:47:46Z
+collectedAt: 2026-11-28T09:27:19Z
 loc:
   C:
-    code: 225956
-    comments: 33593
-    blanks: 38480
+    code: 226186
+    comments: 33639
+    blanks: 38500
     files: 251
   AsciiDoc:
-    code: 151495
-    comments: 3654
-    blanks: 48492
+    code: 151549
+    comments: 3666
+    blanks: 48499
     files: 112
   Cpp:
-    code: 79290
-    comments: 17640
-    blanks: 16953
+    code: 79496
+    comments: 17672
+    blanks: 16983
     files: 149
   CHeader:
-    code: 14415
-    comments: 2093
-    blanks: 2474
+    code: 14427
+    comments: 2098
+    blanks: 2477
     files: 257
   Python:
     code: 3908
@@ -116,9 +116,9 @@ loc:
     blanks: 438
     files: 6
   CMake:
-    code: 2046
-    comments: 442
-    blanks: 350
+    code: 2066
+    comments: 446
+    blanks: 352
     files: 48
   Yaml:
     code: 1901
@@ -131,8 +131,8 @@ loc:
     blanks: 125
     files: 11
   Autoconf:
-    code: 313
-    comments: 81
+    code: 315
+    comments: 83
     blanks: 65
     files: 4
   Css:
@@ -162,8 +162,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 7427
-    blanks: 2088
+    comments: 7509
+    blanks: 2107
     files: 8
   Text:
     code: 0
@@ -171,9 +171,9 @@ loc:
     blanks: 105
     files: 1
 total:
-  code: 480647
-  comments: 65618
-  blanks: 109688
+  code: 481174
+  comments: 65801
+  blanks: 109769
   files: 857
 ---
 date: "2026-11-23"
